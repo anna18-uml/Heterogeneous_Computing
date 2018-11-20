@@ -1,0 +1,8 @@
+Compiler Command: aoc -march=emulator mykernel.cl -o bin/mykernel.aocx
+/home/hc_user9/eece-6540-labs/Exercises/MatrixMulti_homework/Lab2/mykernel.cl:1:36: warning: declaring kernel argument with no 'restrict' may lead to low kernel performance
+__kernel void pi_cal(__global int *id,
+                                   ^
+/home/hc_user9/eece-6540-labs/Exercises/MatrixMulti_homework/Lab2/mykernel.cl:3:22: warning: declaring kernel argument with no 'restrict' may lead to low kernel performance
+     __global float* global_result) {
+                     ^
+2 warnings generated.
